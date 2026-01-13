@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "up-and-running-hive",
+    "title": "Up & Running Hive",
+    "price": "$90.00",
+    "availability": "Available for Spring 2025",
+    "image": "/images/hive.webp",
+    "description": [
+      "Complete hive $490.00",
+      "Ready to set up in your backyard",
+      "New Spring 2025 Queen",
+      "Lots of bees (3-5 frames full)",
+      "Metal lid, inner thicker cover",
+      "Deep box with 10 frames",
+      "Bottom with observation board",
+      "Bring $400 cash for balance",
+      "Pickup in Healdsburg, CA"
+    ]
+  },
+  {
+    "slug": "package-bees",
+    "title": "Package Bees",
+    "price": "$40.00",
+    "availability": "Out of stock – Spring 2026",
+    "image": "/images/bee-package.webp",
+    "description": [
+      "Full price $180.00",
+      "With New Well Bred Spring Queen Included",
+      "Generous 3 lb Honeybees Ready to Install",
+      "2025 Sold Out! See you in Spring, 2026.",
+      "Local Northern California Honey Bees",
+      "Gentle, Calm, Lovingly Raised, Chemical Free Honeybees",
+      "Please bring $140 in cash for balance",
+      "Pickup directions will be forwarded"
+    ],
+    "additionalInfo": {
+      "Color": "Blue"
+    }
+  },
+  {
+    "slug": "queen-bees",
+    "title": "Queen Bees",
+    "price": "$42.00",
+    "availability": "Out of stock – Spring 2026",
+    "image": "/images/queen-bees.webp",
+    "description": [
+      "New, Local Northern California well Bred Spring Italian Honey Bee Queen",
+      "Gentle, Calm, Lovingly Raised, Treatment Free Honeybee",
+      "2025 Sold Out! See you in Spring, 2026."
+    ]
+  }
+]
