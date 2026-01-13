@@ -73,7 +73,7 @@ shadow-[0_-8px_30px_rgba(0,0,0,0.05)]">
           </h3>
           <div className="flex items-center gap-3 text-sm text-black/70">
             <FaEnvelope className="text-[var(--honey-gold)]" />
-            <span>example@aprillancebees.com</span>
+            <span>april@aprillancebees.com</span>
           </div>
         </motion.div>
 

@@ -22,10 +22,7 @@ export default function Header() {
   // 🔹 Close search on outside click
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      if (
-        searchRef.current &&
-        !searchRef.current.contains(e.target as Node)
-      ) {
+      if (searchRef.current && !searchRef.current.contains(e.target as Node)) {
         setSearchOpen(false);
       }
     };
@@ -52,19 +49,21 @@ export default function Header() {
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/90 backdrop-blur shadow-sm" : "bg-transparent text-white"
+        scrolled
+          ? "bg-white/90 backdrop-blur shadow-sm"
+          : "bg-transparent text-white"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between relative">
-        
         <Link href="/" className="z-50 ">
           <Image
-            src="/images/logo.png"
-            alt="Aprillance Bees Logo"
-            width={200}
-            height={90}
-            className="object-contain"
-          />
+  src={scrolled ? "/images/logo.png" : "/images/lightlogo.png"}
+  alt="Aprillance Bees Logo"
+  width={200}
+  height={90}
+  className="object-contain"
+  unoptimized
+/>
         </Link>
 
         {/* Center Nav */}
@@ -74,9 +73,7 @@ export default function Header() {
               key={link.name}
               href={link.href}
               className={`inline-flex items-center transition hover:text-[var(--honey-gold)] ${
-                scrolled
-                  ? "text-[var(--deep-honey-brown)]"
-                  : "lg:text-white"
+                scrolled ? "text-[var(--deep-honey-brown)]" : "lg:text-white"
               }`}
             >
               {link.name}

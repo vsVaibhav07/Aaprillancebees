@@ -32,9 +32,11 @@ export default function HeroSection() {
           className="max-w-3xl text-white"
         >
           {/* Headline */}
-          <h1 className="text-3xl md:text-5xl font-semibold mb-6 text-[var(--honey-gold)] drop-shadow-lg">
-            Gentle, Local Chemical-Free Honey Bees <br />
-            for Your Backyard Hive
+        <h1
+  className="text-white text-3xl opacity-80 md:text-5xl font-semibold mb-6"
+  style={{ color:"white" }}
+>
+            Gentle, Local Chemical-Free Honey Bees for Your Backyard Hive
           </h1>
 
           {/* Subtext */}
