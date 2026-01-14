@@ -46,7 +46,7 @@ export default function ReviewsSlider() {
         <div className="relative flex items-center justify-center gap-3">
           <button
             onClick={prevSlide}
-            className="flex w-9 h-9 md:w-10 md:h-10 rounded-full bg-white shadow items-center justify-center hover:bg-[var(--honey-gold)] hover:text-black transition"
+            className="hidden sm:flex w-9 h-9 md:w-10 md:h-10 rounded-full bg-white shadow items-center justify-center hover:bg-[var(--honey-gold)] hover:text-black transition"
           >
             <FaChevronLeft />
           </button>
@@ -97,7 +97,7 @@ export default function ReviewsSlider() {
 
           <button
             onClick={nextSlide}
-            className="flex w-9 h-9 md:w-10 md:h-10 rounded-full bg-white shadow items-center justify-center hover:bg-[var(--honey-gold)] hover:text-black transition"
+            className="hidden sm:flex w-9 h-9 md:w-10 md:h-10 rounded-full bg-white shadow items-center justify-center hover:bg-[var(--honey-gold)] hover:text-black transition"
           >
             <FaChevronRight />
           </button>
